@@ -76,7 +76,7 @@ p {
 
 Assuming that the browser's default font size is 16px, what font size and color will the `<p>` tag have?
 
-The solution is: 24px font size, and a red color. The font size is inherited from the `<body>` ruleset, and the color is `red` because it's been specified both on the `<body>` and `<p>` tag. The ruleset for making `<p>` red has precedence, since its selector is more _specific_. It effectively overwrites its inherited `font-size` property with its own value.
+The solution is: 24px font size, and a red color. The font size is inherited from the `<body>` ruleset, and the color is `red` because it's been specified both on the `<body>` and `<p>` tag. The ruleset for making `<p>` red has precedence, since its selector is more _specific_. It effectively overwrites its inherited `color` property with its own value.
 
 There's a lot more to be said about this, but since we won't actually write CSS ourselves, it's kind of out of the scope of this course. Feel free to read up on it though, since you will definitely be using CSS from time to time when working on front-end stuff!
 
