@@ -238,7 +238,7 @@ const redElements = $('.red');
 
 The benefit of using jQuery instead of the native selectors is that, among a host of other things, jQuery hides the `NodeList` abstraction, returning an array instead. You don't have to use jQuery to select DOM nodes though, as we saw above!
 
-Let's select another element, this time we want to select any `.big` elements, as well as any `<p>` tags inside an element with the `red` class:
+Let's select another element. This time we want to select any `.big` elements, as well as any `<p>` tags inside an element with the `red` class:
 
 ```js
 const boldElementsAndRedParagraphs = document.querySelectorAll('.big, .red p');
