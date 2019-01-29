@@ -24,7 +24,7 @@ This tells the browser 'I want my `<p>` tags to have a font size of 16px and col
 hard, right?
 
 ## Scope of CSS in this course
-The purpose of this lesson is to quickly get to grips with how CSS works on a very high level. We're not concerned with writing much CSS ourselves. We do have to know how CSS works and — more specifically — how CSS selectors work. Selecting DOM nodes in JS to work with uses CSS selectors, so it's important to know how these work!
+The purpose of this lesson is to quickly get to grips with how CSS works on a very high level. We're not concerned with writing much CSS ourselves. We do have to know how CSS works and — more specifically — how CSS selectors work. In JS, we select DOM nodes using CSS selectors, so it's important to know how these work!
 
 To make our end results a little prettier, we _will_ be using a CSS framework — this allows us to have custom styling without writing any (or a lot, anyway) CSS ourselves. We just have to use the classes that the framework handily provides.
 
